@@ -8,32 +8,44 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
-
 # next.js
 /.next/
 /out/
-
-# production
 /build
+
+# testing
+/coverage
 
 # misc
 .DS_Store
 *.pem
+Thumbs.db
 
-# debug
+# debug e logs locais
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+npm-install-log.txt
+*.log
 
-# env files
+# env — nunca commitar segredos
+.env
 .env*.local
+
+# npm local (SSL/rede) — use .npmrc.example
+.npmrc
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
-# vercel
+# vercel / deploy
 .vercel
+
+# IDE (opcional — reduz ruído no GitHub Desktop)
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# pastas acidentais / duplicadas
+Projeto Transportadora/

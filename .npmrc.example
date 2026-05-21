@@ -1,0 +1,7 @@
+# Copie para .npmrc apenas se npm install falhar por certificado SSL na sua rede:
+#   copy .npmrc.example .npmrc
+#
+# Não commite o arquivo .npmrc (está no .gitignore).
+
+strict-ssl=false
+legacy-peer-deps=true

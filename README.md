@@ -17,6 +17,17 @@ Site institucional premium para a transportadora fictícia **NovaCargo Logistics
 | [Lucide React](https://lucide.dev/) | Ícones |
 | [next-themes](https://github.com/pacocoursey/next-themes) | Dark mode |
 
+## Publicar no GitHub (GitHub Desktop)
+
+1. Abra o **GitHub Desktop** → **File** → **Add local repository**
+2. Escolha a pasta: `Projeto Pagina Transportadora`
+3. Se pedir, confirme que é um repositório Git (já inicializado)
+4. Revise os arquivos no diff (não deve aparecer `node_modules`, `.next`, `.npmrc`)
+5. **Publish repository** → nome sugerido: `novacargo-logistics` → visibilidade **Public** ou **Private**
+6. Clique em **Push origin**
+
+> **Importante:** O arquivo `.npmrc` (config local de rede) não sobe para o GitHub. Se `npm install` falhar por SSL, copie `.npmrc.example` para `.npmrc` localmente.
+
 ## Como executar
 
 ```bash
@@ -95,4 +106,4 @@ Alternância via botão na navbar. Tema padrão: **dark**. Tokens CSS em `src/ap
 
 ## Licença
 
-Projeto educacional — uso livre para fins de ensino.
+MIT — projeto educacional. Veja [LICENSE](LICENSE).
