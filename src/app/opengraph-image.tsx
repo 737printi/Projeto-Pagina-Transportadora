@@ -22,17 +22,27 @@ export default function OpenGraphImage() {
       >
         <div
           style={{
+            display: "flex",
             fontSize: 56,
             fontWeight: 700,
             color: "#f8fafc",
             marginBottom: 16,
           }}
         >
-          {COMPANY.name} {COMPANY.suffix}
+          {`${COMPANY.name} ${COMPANY.suffix}`}
         </div>
-        <div style={{ fontSize: 28, color: "#94a3b8" }}>{COMPANY.slogan}</div>
         <div
           style={{
+            display: "flex",
+            fontSize: 28,
+            color: "#94a3b8",
+          }}
+        >
+          {COMPANY.slogan}
+        </div>
+        <div
+          style={{
+            display: "flex",
             marginTop: 40,
             padding: "12px 24px",
             background: "#3b82f6",

@@ -3,7 +3,7 @@ import { Linkedin, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react"
 import { Logo } from "@/components/shared/Logo";
 import { Container } from "@/components/shared/Container";
 import { Separator } from "@/components/ui/separator";
-import { COMPANY, NAV_LINKS } from "@/lib/constants";
+import { COMPANY } from "@/lib/constants";
 
 const footerLinks = {
   empresa: [
